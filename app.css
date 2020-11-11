@@ -1,0 +1,47 @@
+* {
+  background: #423a6f;
+}
+.cont {
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid white;
+}
+.filtered {
+  display: none !important;
+  opacity: 0.1;
+}
+.containerr {
+  height: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.todos li {
+  border: 1px dotted gray;
+  background: #423a6f;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.mofo {
+  display: none;
+  animation: opacity 5s infinite;
+}
+
+@keyframes opacity {
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
